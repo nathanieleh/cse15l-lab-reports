@@ -24,7 +24,9 @@ Now that you are successfully logged into the remote device, you can run any com
 * `cd [path]` - changes the active directory that your machine is on
 * `cd ~` - changes the directory to the user's home directory
 * `ls -lat` - lists all files using `-l` `-a` and `-t` as constraints
-* `ls -a` - lists all files using `a` as a constraint
+* `ls -a` - lists all files using `-a` as a constraint
+
+If you want to know more about how these constraints affect the `ls` command, you can learn more [here](https://www.inmotionhosting.com/support/server/linux/ls-command/#:~:text=The%20ls%20command%20is%20one,a%20selected%20set%20of%20directories.).
 
 Here is what happens if you were to run these commands through the remote connection.
 
