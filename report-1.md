@@ -21,12 +21,14 @@ Now the terminal will prompt for a password, so you must input the password to t
 
 ## Using commands on a remotely connected system
 Now that you are successfully logged into the remote device, you can run any command you may desire as if it was your host device! If you like, you can run the following commands and see what happens with your terminal.
-* `cd`
-* `cd ~`
-* `ls -lat`
-* `ls -a`
+* `cd [path]` - changes the active directory that your machine is on
+* `cd ~` - changes the directory to the user's home directory
+* `ls -lat` - lists all files using `-l` `-a` and `-t` as constraints
+* `ls -a` - lists all files using `a` as a constraint
 
-Here is what happens if you were to run `ls -lat` and `ls -a` through this remote connection.
+Here is what happens if you were to run these commands through the remote connection.
+
+
 
 ![Image](SAMPLE_CODE.PNG)
 
