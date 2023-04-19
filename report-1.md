@@ -28,7 +28,7 @@ Now that you are successfully logged into the remote device, you can run any com
 
 Here is what happens if you were to run these commands through the remote connection.
 
-
+![Image](image_2023-04-19_122357527.png)
 
 ![Image](SAMPLE_CODE.PNG)
 
