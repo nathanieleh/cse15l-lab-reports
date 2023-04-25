@@ -1,3 +1,5 @@
+# Lab Report 2 - Servers and Bugs
+## Part 1
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -34,6 +36,12 @@ class StringServer {
     }
 }
 ```
-
+/add-message #1
 ![Image](First_Saved_Message%20(2).png)
+Relevant methods called in the program
+`handleRequest(URI url)`
+value of url: 
+/add-message #2
 ![Image](Second_Saved_Message.png)
+## Part 2
+## Part 3
