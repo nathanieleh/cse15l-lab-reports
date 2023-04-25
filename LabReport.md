@@ -150,5 +150,43 @@ public class ArrayExamplesTester {
     }
 }
 ```
+### Failure Inducing Input
+
+![Image](Failure_Inducing_Input.png)
+
+### Successful Input
+
+![Image](Successful_Input.png)
+
+### Bug Before Change
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+
+```
+
+### Bug After Change
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+```
+
+There were two errors that needed to be addressed with the method with one being the for loop implementation and the second being how the values of arr were being assigned.
+
+Initially for the for loop, it went through the entire array of items and assigning each cell of the array to their counterpart which created this mirror effect that one can see when providing an input. Changing the for loop to only go through half of the array would solve that issue.
+
+Regarding the actual assignments of the values of arr itself, it never actually saved the value of the item being replaced in the array, so there would be no way of assigning the proper value to the counterpart of the value we were currently at. Adding the temp variable solved this issue.
 
 ## Part 3
+
+One thing that I have learned specifically from lab 2 is how to use GitHub Desktop in order to directly modify files that I may have in my repositories. When I had to learn this for my lab project, I realized how simple this process really was since the application allowed for me to push changes to the repository with a click of a button rather than copying and pasting code into the files directly. After learning this, I decided to force myself to continue using this feature of GitHub since I feel this is a handy tool that I may be using in the future of my CS career.
