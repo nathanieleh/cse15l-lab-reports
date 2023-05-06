@@ -152,11 +152,11 @@ public class ArrayExamplesTester {
 ```
 ### Failure Inducing Input
 
-![Image](Failure_Inducing_Input.png)
+![Image](Failure_Inducing_Input_Resized.png)
 
 ### Successful Input
 
-![Image](Successful_Input.png)
+![Image](Successful_Input_Resized.png)
 
 ### Bug Before Change
 
