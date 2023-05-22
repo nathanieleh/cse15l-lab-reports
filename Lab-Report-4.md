@@ -3,30 +3,30 @@
 ```
 ssh<SPACE>cs15lsp23rk@ieng6.ucsd.edu<ENTER>
 ```
-![Image}()
+![Image}(LOGIN.png)
 ## Step 5
 ```
 git<SPACE>clone<SPACE><CTRL+V><ENTER>
 ```
-![Image}()
+![Image}(CLONE.png)
 ## Step 6
 ```
 cd<SPACE>lab7<ENTER>
 ls<ENTER>
 bash<SPACE>t<TAB><ENTER>
 ```
-![Image}()
+![Image}(FIRST_TEST.png)
 ## Step 7
 ```
 vim<SPACE>List<TAB>.j<TAB><ENTER>
 gg/1<ENTER>18nr2:wq<ENTER>
 ```
-![Image}()
+![Image}(CHANGE_FILE.png)
 ## Step 8
 ```
 bash<SPACE>t<TAB><ENTER>
 ```
-![Image}()
+![Image}(SECOND_TEST.png)
 ## Step 9
 ```
 git<SPACE>add<SPACE> List<TAB>.j<TAB><ENTER>
@@ -34,4 +34,4 @@ git<SPACE>commit<ENTER>
 i<COMMIT_MESSAGE><ESC>:wq<ENTER>
 git<SPACE>push<SPACE><CTRL+V><SPACE>main<ENTER>
 ```
-![Image}()
+![Image}(FINAL_STEP.png)
