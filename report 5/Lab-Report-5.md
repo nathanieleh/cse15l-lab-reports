@@ -33,7 +33,7 @@ StudentError/
   -StudentError.java
 ```
 
-**Contents of each file BEFORE the bug**
+**Contents of each file BEFORE fixing the bug**
 
 Provided in the first screenshot.
 
@@ -41,9 +41,10 @@ Provided in the first screenshot.
 
 Also provided in the first screenshot.
 
-**A description o what to edit to fix the bug**
+**A description of what to edit to fix the bug**
 
-Rather than having `result` equal the string in the original array and modifying it in-place, have it equal an empty string. This would allow one to iterate through the original string backwards and add to the new `result`.
+Rather than having `result` equal the string in the original array and modifying it in-place, have it equal an empty string. This would allow one to iterate through the original string backwards and add to the new `result`. This new approach would be much simpler to implement compared to what was trying to be done earlier.
 
 # Reflection
 
+I think what I found to be the most exciting part of the second half of the quarter was when we were able to run our own grading server. Being able to replicate a system that I have been dealing with my entire first year at UCSD was pretty exciting since it allowed for me to think about the technology I have been working with in the perspective of a programmer. It helped me realize just how much goes into these programs that we deal with every day and all of the potential possibilities that a programmer can be involved with in their career.
