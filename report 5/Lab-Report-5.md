@@ -27,11 +27,11 @@ It appeared that when I iterated through the for loop, the new string `result` w
 
 **File and directory structure**
 
+```
 StudentError/
-
--script.sh
-
--StudentError.java
+  -script.sh
+  -StudentError.java
+```
 
 **Contents of each file BEFORE the bug**
 
