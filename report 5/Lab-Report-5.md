@@ -29,9 +29,9 @@ It appeared that when I iterated through the for loop, the new string `result` w
 
 StudentError/
 
-  -script.sh
-  
-  -StudentError.java
+-script.sh
+
+-StudentError.java
 
 **Contents of each file BEFORE the bug**
 
